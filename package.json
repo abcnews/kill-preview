@@ -1,0 +1,19 @@
+{
+  "name": "@abcnews/kill-preview",
+  "version": "1.0.0",
+  "description": "Kill the preview tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcnews/kill-preview.git"
+  },
+  "contributors": [{ "name": "Simon Elvery" }, { "name": "Ash Kyd" }],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abcnews/kill-preview/issues"
+  },
+  "homepage": "https://github.com/abcnews/kill-preview#readme"
+}
