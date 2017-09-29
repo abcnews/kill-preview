@@ -2,7 +2,7 @@
  * The nuclear (or perhaps opposite thereof) option.
  * Remove all the preview guff and reset everything back how it is in production.
  */
-module.exports = function() {
+module.exports = function(includeTools) {
   var $ctx = $('span[id^="CTX-"]');
   var scripts = $ctx
     .find('script')
@@ -22,4 +22,9 @@ module.exports = function() {
 
   $ctx.children().unwrap();
   $ctx.remove();
+
+  if (includeTools) {
+    $('#previewMobilePanel,#previewInfoPanel').remove();
+    $('body').removeClass('preview');
+  }
 };
